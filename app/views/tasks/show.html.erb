@@ -1,0 +1,9 @@
+<h1> <%= "Show" %> </h1>
+ <%= link_to "edit task", task_edit_path(@task) %>
+
+
+
+  <li><%= "#{@task.title}, #{@task.details} " %></li>
+
+
+ <%= link_to "back", tasks_path %>

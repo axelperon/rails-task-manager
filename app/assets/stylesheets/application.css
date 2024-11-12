@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+.tasklist{
+color:bisque
+
+}
+
+.btn{
+  background-color: antiquewhite;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
